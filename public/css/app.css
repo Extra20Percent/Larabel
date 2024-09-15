@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-image: url('/images/rosmi.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.footer {
+    background-color: rgba(175, 175, 175, 0.9);
+    color: white;
+}

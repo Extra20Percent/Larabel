@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-[x-cloak] {
-    display: none;
+body {
+    background-image: url('/images/background.jpg'); /* Gambar latar belakang */
+    background-size: cover;  /* Agar background menutupi seluruh layar */
+    background-position: center;  /* Menempatkan gambar di tengah */
+    background-attachment: fixed; /* Background tetap saat scroll */
+    font-family: 'Arial', sans-serif; /* Menggunakan font Arial */
+}
+
+.navbar {
+    background-color: rgba(0, 217, 255, 0.9);
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
 }
