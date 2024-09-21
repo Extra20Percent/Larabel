@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-    background-image: url('/images/background.jpg'); /* Gambar latar belakang */
+    background-image: url('/images/'); /* Gambar latar belakang */
     background-size: cover;  /* Agar background menutupi seluruh layar */
     background-position: center;  /* Menempatkan gambar di tengah */
     background-attachment: fixed; /* Background tetap saat scroll */
